@@ -1,7 +1,9 @@
 from clases.pelicula import Pelicula
 from clases.gestorPelicula import GestorPelicula
+from clases.desarollador import Desarrollador
 
 gestor = GestorPelicula()
+desarrollador = Desarrollador("Lenguajes Formales y de Programacion",'P',"9712749","Edgar David Gaytan Carranza")
 
 def cargar_archivo():
     print("\nArchivo Cargado con exito...")
@@ -53,4 +55,5 @@ def mostar_menu_principal():
             print("Opcion no valida, por favor intente de nuevo")
 
 if __name__ == "__main__":
+    desarrollador.desplegar_datos_desarrollador()
     mostar_menu_principal()
