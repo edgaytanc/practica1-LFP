@@ -1,0 +1,50 @@
+// Peliculas
+digraph {
+	graph [rankdir=LR]
+	The_Avengers_2012 [label="The Avengers
+2012
+Ficcion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	Robert_Downey_Jr [label="Robert Downey Jr" color=green fillcolor=palegreen shape=box style=filled]
+	The_Avengers_2012 -> Robert_Downey_Jr
+	Chris_Evans [label="Chris Evans" color=green fillcolor=palegreen shape=box style=filled]
+	The_Avengers_2012 -> Chris_Evans
+	Chris_Hemsworth [label="Chris Hemsworth" color=green fillcolor=palegreen shape=box style=filled]
+	The_Avengers_2012 -> Chris_Hemsworth
+	Spiderman_2002 [label="Spiderman
+2002
+Accion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	Tobey_Maguire [label="Tobey Maguire" color=green fillcolor=palegreen shape=box style=filled]
+	Spiderman_2002 -> Tobey_Maguire
+	Kirsten_Dunst [label="Kirsten Dunst" color=green fillcolor=palegreen shape=box style=filled]
+	Spiderman_2002 -> Kirsten_Dunst
+	Willem_Dafoe [label="Willem Dafoe" color=green fillcolor=palegreen shape=box style=filled]
+	Spiderman_2002 -> Willem_Dafoe
+	The_Amazing_Spiderman_2012 [label="The Amazing Spiderman
+2012
+Accion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	Andrew_Garfield [label="Andrew Garfield" color=green fillcolor=palegreen shape=box style=filled]
+	The_Amazing_Spiderman_2012 -> Andrew_Garfield
+	Emma_Stone [label="Emma Stone" color=green fillcolor=palegreen shape=box style=filled]
+	The_Amazing_Spiderman_2012 -> Emma_Stone
+	Spiderman_Homecoming_2017 [label="Spiderman Homecoming
+2017
+Accion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	Tom_Holland [label="Tom Holland" color=green fillcolor=palegreen shape=box style=filled]
+	Spiderman_Homecoming_2017 -> Tom_Holland
+	_Zendaya [label=" Zendaya" color=green fillcolor=palegreen shape=box style=filled]
+	Spiderman_Homecoming_2017 -> _Zendaya
+	Avengers_Infinity_War_2018 [label="Avengers Infinity War
+2018
+Acion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	Robert_Downey_Jr [label="Robert Downey Jr" color=green fillcolor=palegreen shape=box style=filled]
+	Avengers_Infinity_War_2018 -> Robert_Downey_Jr
+	Tom_Holland [label="Tom Holland" color=green fillcolor=palegreen shape=box style=filled]
+	Avengers_Infinity_War_2018 -> Tom_Holland
+	The_Amazing_Spiderman_2_2014 [label="The Amazing Spiderman 2
+2014
+Accion" color=blue fillcolor=lightblue2 shape=box style=filled]
+	_Andrew_Garfield [label=" Andrew Garfield" color=green fillcolor=palegreen shape=box style=filled]
+	The_Amazing_Spiderman_2_2014 -> _Andrew_Garfield
+	Emma_Stone [label="Emma Stone" color=green fillcolor=palegreen shape=box style=filled]
+	The_Amazing_Spiderman_2_2014 -> Emma_Stone
+}
